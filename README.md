@@ -6,7 +6,7 @@
   This application uses Sequelize to interact with a mySQL database. User's can make get, single id get, post, put, and delete requests.
 
   ## Table of Contents
-  - [Walkthrough Video](#Walkthrough_Video)
+  - [Walkthrough_Video](#Walkthrough_Video)
   - [Thumbnail](#Thumbnail)
   - [Installation](#Installation)
   - [Usage](#Usage)
