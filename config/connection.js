@@ -1,6 +1,9 @@
+// establishing our conection with sequelize
 const Sequelize = require("sequelize");
 require("dotenv").config();
-
+// creating connection to object
+// jawsdb is used if we were to ever host the datbase on a cloud server
+// a dotenv is required for this to run
 const sequelize = process.env.JAWSDB_URL
 ? new Sequelize(process.env.JAWSDB_URL)
 : new Sequelize(
